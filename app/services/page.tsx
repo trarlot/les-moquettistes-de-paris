@@ -4,13 +4,13 @@ export default function Services() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="pt-32 pb-20 px-6 lg:px-8 bg-gray-50">
+            <section className="pt-40 pb-20 px-6 lg:px-8 bg-gray-50">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center">
-                        <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                             Nos Services
                         </h1>
-                        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
                             Une gamme complète de services pour tous vos besoins
                             en revêtement de sol professionnel
                         </p>
@@ -22,10 +22,10 @@ export default function Services() {
             <section className="py-20 px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
                     <div className="mb-12">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center md:text-left">
                             Théâtres & Opéras
                         </h2>
-                        <p className="text-xl text-gray-600 max-w-3xl">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto md:mx-0 text-center md:text-left">
                             Solutions acoustiques et esthétiques pour salles de
                             spectacle et espaces culturels.
                         </p>
@@ -86,11 +86,11 @@ export default function Services() {
             {/* Section Hôtellerie & Restauration */}
             <section className="py-20 px-6 lg:px-8 bg-gray-50">
                 <div className="max-w-7xl mx-auto">
-                    <div className="mb-12">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                    <div className="mb-12 text-center md:text-left">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Hôtellerie & Restauration
                         </h2>
-                        <p className="text-xl text-gray-600 max-w-3xl">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto md:mx-0">
                             Revêtements durables pour hôtels, restaurants et
                             établissements recevant du public.
                         </p>
@@ -151,11 +151,11 @@ export default function Services() {
             {/* Section Salles de Sport */}
             <section className="py-20 px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
-                    <div className="mb-12">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                    <div className="mb-12 text-center md:text-left">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Salles de Sport
                         </h2>
-                        <p className="text-xl text-gray-600 max-w-3xl">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto md:mx-0">
                             Solutions résistantes et antidérapantes pour centres
                             de fitness et espaces sportifs.
                         </p>
@@ -216,11 +216,11 @@ export default function Services() {
             {/* Section Banques & Entreprises */}
             <section className="py-20 px-6 lg:px-8 bg-gray-50">
                 <div className="max-w-7xl mx-auto">
-                    <div className="mb-12">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                    <div className="mb-12 text-center md:text-left">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Banques & Entreprises
                         </h2>
-                        <p className="text-xl text-gray-600 max-w-3xl">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto md:mx-0">
                             Espaces professionnels et institutionnels avec
                             exigences de sécurité et d&apos;image. Revêtements
                             adaptés aux bureaux, open spaces, agences bancaires
@@ -285,10 +285,10 @@ export default function Services() {
             {/* CTA Section */}
             <section className="py-20 px-6 lg:px-8 bg-gradient-to-br from-red-600 to-red-700">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-4xl font-bold text-white mb-6">
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                         Besoin d&apos;un Devis Personnalisé ?
                     </h2>
-                    <p className="text-xl text-red-100 mb-8">
+                    <p className="text-base md:text-lg lg:text-xl text-red-100 mb-8">
                         Contactez-nous pour une étude gratuite de votre projet
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">

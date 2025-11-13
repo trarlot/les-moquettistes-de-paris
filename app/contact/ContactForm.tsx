@@ -65,7 +65,7 @@ export default function ContactForm() {
 
     return (
         <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center md:text-left">
                 Demandez Votre Devis
             </h2>
             {submitStatus.type && (

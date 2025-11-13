@@ -4,13 +4,13 @@ export default function Contact() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="pt-32 pb-20 px-6 lg:px-8 bg-gray-50">
+            <section className="pt-40 pb-20 px-6 lg:px-8 bg-gray-50">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center">
-                        <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                             Contactez-Nous
                         </h1>
-                        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
                             Obtenez un devis gratuit et personnalisé pour votre
                             projet de pose de moquette
                         </p>
@@ -27,13 +27,13 @@ export default function Contact() {
 
                         {/* Informations de Contact */}
                         <div>
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center md:text-left">
                                 Nos Coordonnées
                             </h2>
 
                             <div className="space-y-8">
-                                <div className="flex items-start space-x-4">
-                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center">
+                                <div className="flex items-start space-x-4 justify-center md:justify-start">
+                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0">
                                         <svg
                                             className="w-6 h-6 text-red-700"
                                             fill="none"
@@ -47,7 +47,7 @@ export default function Contact() {
                                             />
                                         </svg>
                                     </div>
-                                    <div>
+                                    <div className="text-center md:text-left">
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
                                             Téléphone
                                         </h3>
@@ -60,8 +60,8 @@ export default function Contact() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4">
-                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center">
+                                <div className="flex items-start space-x-4 justify-center md:justify-start">
+                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0">
                                         <svg
                                             className="w-6 h-6 text-red-700"
                                             fill="none"
@@ -75,7 +75,7 @@ export default function Contact() {
                                             />
                                         </svg>
                                     </div>
-                                    <div>
+                                    <div className="text-center md:text-left">
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
                                             Email
                                         </h3>
@@ -88,8 +88,8 @@ export default function Contact() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4">
-                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center">
+                                <div className="flex items-start space-x-4 justify-center md:justify-start">
+                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0">
                                         <svg
                                             className="w-6 h-6 text-red-700"
                                             fill="none"
@@ -109,7 +109,7 @@ export default function Contact() {
                                             />
                                         </svg>
                                     </div>
-                                    <div>
+                                    <div className="text-center md:text-left">
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
                                             Adresse
                                         </h3>
@@ -122,8 +122,8 @@ export default function Contact() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4">
-                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center">
+                                <div className="flex items-start space-x-4 justify-center md:justify-start">
+                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0">
                                         <svg
                                             className="w-6 h-6 text-red-700"
                                             fill="none"
@@ -137,7 +137,7 @@ export default function Contact() {
                                             />
                                         </svg>
                                     </div>
-                                    <div>
+                                    <div className="text-center md:text-left">
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
                                             Horaires
                                         </h3>
@@ -153,14 +153,14 @@ export default function Contact() {
 
                             {/* Zone d'intervention */}
                             <div className="mt-12 p-6 bg-gray-50">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                                <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 text-center md:text-left">
                                     Zone d&apos;Intervention
                                 </h3>
-                                <p className="text-gray-600 mb-4">
+                                <p className="text-gray-600 mb-4 text-center md:text-left">
                                     Nous intervenons dans toute la région
                                     parisienne et ses environs :
                                 </p>
-                                <div className="grid grid-cols-2 gap-2 text-sm text-gray-600">
+                                <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 text-center md:text-left">
                                     <div>• Paris (tous arrondissements)</div>
                                     <div>• Hauts-de-Seine (92)</div>
                                     <div>• Seine-Saint-Denis (93)</div>
@@ -180,10 +180,10 @@ export default function Contact() {
             <section className="py-20 px-6 lg:px-8 bg-gray-50">
                 <div className="max-w-4xl mx-auto">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Questions Fréquentes
                         </h2>
-                        <p className="text-xl text-gray-600">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600">
                             Retrouvez les réponses aux questions les plus
                             courantes
                         </p>

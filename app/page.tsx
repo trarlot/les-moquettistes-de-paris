@@ -4,18 +4,18 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="pt-40 flex items-center h-[80vh] pb-20 px-6 lg:px-8 bg-white0">
+            <section className="pt-40 flex items-center lg:h-[80vh] pb-20 px-6 lg:px-8 bg-white0">
                 <div className="grid max-w-7xl mx-auto md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6 text-center md:text-left">
                             Expert en pose de moquettes pour professionnels
                         </h1>
-                        <p className="text-xl text-gray-600 mb-8">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 mb-8 text-center md:text-left">
                             Solutions sur-mesure pour vos espaces
                             professionnels. Qualité irréprochable, respect des
                             délais et service haut de gamme.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4">
+                        <div className="flex flex-col md:flex-row gap-4">
                             <a
                                 href="/contact"
                                 className="inline-flex items-center justify-center bg-red-700 text-white px-8 py-3 leading-none hover:bg-red-800 transition-colors font-medium text-center">
@@ -45,10 +45,10 @@ export default function Home() {
             <section id="services" className="py-20 px-6 bg-gray-50 lg:px-8">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Nos Services
                         </h2>
-                        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto">
                             Une gamme complète de services pour tous vos besoins
                             en revêtement de sol professionnel
                         </p>
@@ -56,7 +56,7 @@ export default function Home() {
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div className="bg-white p-8 border border-gray-200 hover:shadow-xl transition-shadow">
-                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6">
+                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6 mx-auto md:mx-0">
                                 <svg
                                     className="w-7 h-7 text-red-700"
                                     fill="none"
@@ -70,17 +70,17 @@ export default function Home() {
                                     />
                                 </svg>
                             </div>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                            <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 text-center md:text-left">
                                 Théâtres & Opéras
                             </h3>
-                            <p className="text-gray-600">
+                            <p className="text-gray-600 text-center md:text-left">
                                 Solutions acoustiques et esthétiques pour salles
                                 de spectacle et espaces culturels.
                             </p>
                         </div>
 
                         <div className="bg-white p-8 border border-gray-200 hover:shadow-xl transition-shadow">
-                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6">
+                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6 mx-auto md:mx-0">
                                 <svg
                                     className="w-7 h-7 text-red-700"
                                     fill="none"
@@ -94,17 +94,17 @@ export default function Home() {
                                     />
                                 </svg>
                             </div>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                            <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 text-center md:text-left">
                                 Hôtellerie & Restauration
                             </h3>
-                            <p className="text-gray-600">
+                            <p className="text-gray-600 text-center md:text-left">
                                 Revêtements durables pour hôtels, restaurants et
                                 établissements recevant du public.
                             </p>
                         </div>
 
                         <div className="bg-white p-8 border border-gray-200 hover:shadow-xl transition-shadow">
-                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6">
+                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6 mx-auto md:mx-0">
                                 <svg
                                     className="w-7 h-7 text-red-700"
                                     fill="none"
@@ -118,10 +118,10 @@ export default function Home() {
                                     />
                                 </svg>
                             </div>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                            <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 text-center md:text-left">
                                 Banques & Entreprises
                             </h3>
-                            <p className="text-gray-600">
+                            <p className="text-gray-600 text-center md:text-left">
                                 Espaces professionnels et institutionnels avec
                                 exigences de sécurité et d&apos;image.
                                 Revêtements adaptés aux bureaux, open spaces,
@@ -130,7 +130,7 @@ export default function Home() {
                         </div>
 
                         <div className="bg-white p-8 border border-gray-200 hover:shadow-xl transition-shadow">
-                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6">
+                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6 mx-auto md:mx-0">
                                 <svg
                                     className="w-7 h-7 text-red-700"
                                     fill="none"
@@ -144,17 +144,17 @@ export default function Home() {
                                     />
                                 </svg>
                             </div>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                            <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 text-center md:text-left">
                                 Bijouteries de Luxe
                             </h3>
-                            <p className="text-gray-600">
+                            <p className="text-gray-600 text-center md:text-left">
                                 Revêtements haut de gamme pour boutiques de luxe
                                 et espaces d&apos;exposition précieux.
                             </p>
                         </div>
 
                         <div className="bg-white p-8 border border-gray-200 hover:shadow-xl transition-shadow">
-                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6">
+                            <div className="w-14 h-14 bg-red-100 flex rounded-full items-center justify-center mb-6 mx-auto md:mx-0">
                                 <svg
                                     className="w-7 h-7 text-red-700"
                                     fill="none"
@@ -168,10 +168,10 @@ export default function Home() {
                                     />
                                 </svg>
                             </div>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                            <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 text-center md:text-left">
                                 Salles de Sport
                             </h3>
-                            <p className="text-gray-600">
+                            <p className="text-gray-600 text-center md:text-left">
                                 Solutions résistantes et antidérapantes pour
                                 centres de fitness et espaces sportifs.
                             </p>
@@ -184,10 +184,10 @@ export default function Home() {
             <section id="avantages" className="py-20 px-6 lg:px-8 ">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Pourquoi Nous Choisir
                         </h2>
-                        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto">
                             L&apos;excellence au service de vos projets
                             professionnels
                         </p>
@@ -200,7 +200,7 @@ export default function Home() {
                                     15+
                                 </span>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-2">
+                            <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2">
                                 Années d&apos;Expérience
                             </h3>
                             <p className="text-gray-600">
@@ -285,7 +285,7 @@ export default function Home() {
             <section id="temoignages" className="py-20 px-6 lg:px-8 bg-gray-50">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Ce que disent nos clients
                         </h2>
                     </div>
@@ -363,10 +363,10 @@ export default function Home() {
                 id="contact"
                 className="py-20 px-6 lg:px-8 bg-gradient-to-br from-red-600 to-red-700">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-4xl font-bold text-white mb-6">
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                         Prêt à Démarrer Votre Projet ?
                     </h2>
-                    <p className="text-xl text-red-100 mb-8">
+                    <p className="text-base md:text-lg lg:text-xl text-red-100 mb-8">
                         Obtenez un devis gratuit et personnalisé sous 24h
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
