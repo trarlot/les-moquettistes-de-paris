@@ -147,9 +147,6 @@ export default function Contact() {
                                         <p className="text-gray-600">
                                             Samedi: 9h00 - 12h00
                                         </p>
-                                        <p className="text-sm text-gray-500">
-                                            Interventions weekend sur demande
-                                        </p>
                                     </div>
                                 </div>
                             </div>
