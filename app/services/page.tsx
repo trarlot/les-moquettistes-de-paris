@@ -4,7 +4,7 @@ export default function Services() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="pt-32 pb-20 px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-red-50">
+            <section className="pt-32 pb-20 px-6 lg:px-8 bg-gray-50">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center">
                         <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
