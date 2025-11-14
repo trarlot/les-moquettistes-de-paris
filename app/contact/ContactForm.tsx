@@ -4,6 +4,7 @@ import { useState, FormEvent } from 'react';
 
 export default function ContactForm() {
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [typeProjet, setTypeProjet] = useState('');
     const [submitStatus, setSubmitStatus] = useState<{
         type: 'success' | 'error' | null;
         message: string;
@@ -44,6 +45,7 @@ export default function ContactForm() {
                         'Votre demande a été envoyée avec succès ! Nous vous contacterons sous 24h.',
                 });
                 (e.target as HTMLFormElement).reset();
+                setTypeProjet('');
             } else {
                 setSubmitStatus({
                     type: 'error',
@@ -91,7 +93,7 @@ export default function ContactForm() {
                             id="nom"
                             name="nom"
                             required
-                            className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600"
+                            className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
                             placeholder="Votre nom"
                         />
                     </div>
@@ -106,7 +108,7 @@ export default function ContactForm() {
                             id="prenom"
                             name="prenom"
                             required
-                            className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600"
+                            className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
                             placeholder="Votre prénom"
                         />
                     </div>
@@ -123,7 +125,7 @@ export default function ContactForm() {
                         id="email"
                         name="email"
                         required
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600"
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
                         placeholder="votre@email.com"
                     />
                 </div>
@@ -138,7 +140,7 @@ export default function ContactForm() {
                         type="tel"
                         id="telephone"
                         name="telephone"
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600"
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
                         placeholder="01 23 45 67 89"
                     />
                 </div>
@@ -153,7 +155,7 @@ export default function ContactForm() {
                         type="text"
                         id="entreprise"
                         name="entreprise"
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600"
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
                         placeholder="Nom de votre entreprise"
                     />
                 </div>
@@ -168,8 +170,16 @@ export default function ContactForm() {
                         id="type-projet"
                         name="type-projet"
                         required
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600">
-                        <option value="">Sélectionnez un type</option>
+                        value={typeProjet}
+                        onChange={(e) => setTypeProjet(e.target.value)}
+                        className={`w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 bg-white ${
+                            typeProjet === ''
+                                ? 'text-gray-400'
+                                : 'text-gray-900'
+                        }`}>
+                        <option value="" className="text-gray-400">
+                            Sélectionnez un type
+                        </option>
                         <option value="Théâtres & Opéras">
                             Théâtres & Opéras
                         </option>
@@ -196,7 +206,7 @@ export default function ContactForm() {
                         type="number"
                         id="surface"
                         name="surface"
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600"
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
                         placeholder="Ex: 150"
                     />
                 </div>
@@ -211,7 +221,7 @@ export default function ContactForm() {
                         id="message"
                         name="message"
                         rows={4}
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600"
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
                         placeholder="Décrivez votre projet..."></textarea>
                 </div>
 

@@ -27,13 +27,13 @@ export default function Contact() {
 
                         {/* Informations de Contact */}
                         <div>
-                            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center md:text-left">
+                            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center lg:text-left">
                                 Nos Coordonnées
                             </h2>
 
-                            <div className="space-y-8">
-                                <div className="flex items-start space-x-4 justify-center md:justify-start">
-                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-1 gap-4 lg:gap-8 lg:space-y-0">
+                                <div className="flex flex-col items-center lg:flex-row lg:items-start lg:space-x-4 text-center">
+                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0 mb-3 lg:mb-0">
                                         <svg
                                             className="w-6 h-6 text-red-700"
                                             fill="none"
@@ -47,7 +47,7 @@ export default function Contact() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className="text-center md:text-left">
+                                    <div className="lg:text-left">
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
                                             Téléphone
                                         </h3>
@@ -60,8 +60,8 @@ export default function Contact() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4 justify-center md:justify-start">
-                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0">
+                                <div className="flex flex-col items-center lg:flex-row lg:items-start lg:space-x-4 text-center">
+                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0 mb-3 lg:mb-0">
                                         <svg
                                             className="w-6 h-6 text-red-700"
                                             fill="none"
@@ -75,7 +75,7 @@ export default function Contact() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className="text-center md:text-left">
+                                    <div className="lg:text-left">
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
                                             Email
                                         </h3>
@@ -88,8 +88,8 @@ export default function Contact() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4 justify-center md:justify-start">
-                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0">
+                                <div className="flex flex-col items-center lg:flex-row lg:items-start lg:space-x-4 text-center">
+                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0 mb-3 lg:mb-0">
                                         <svg
                                             className="w-6 h-6 text-red-700"
                                             fill="none"
@@ -109,7 +109,7 @@ export default function Contact() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className="text-center md:text-left">
+                                    <div className="lg:text-left">
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
                                             Adresse
                                         </h3>
@@ -122,8 +122,8 @@ export default function Contact() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-start space-x-4 justify-center md:justify-start">
-                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0">
+                                <div className="flex flex-col items-center lg:flex-row lg:items-start lg:space-x-4 text-center">
+                                    <div className="w-12 h-12 bg-red-100 flex items-center justify-center flex-shrink-0 mb-3 lg:mb-0">
                                         <svg
                                             className="w-6 h-6 text-red-700"
                                             fill="none"
@@ -137,7 +137,7 @@ export default function Contact() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className="text-center md:text-left">
+                                    <div className="lg:text-left">
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
                                             Horaires
                                         </h3>

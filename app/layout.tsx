@@ -30,7 +30,7 @@ export default function RootLayout({
                 <footer className="bg-gray-900 text-gray-300 py-12 px-6 lg:px-8">
                     <div className="max-w-7xl mx-auto">
                         <div className="grid md:grid-cols-4 gap-8">
-                            <div>
+                            <div className="text-center md:text-left">
                                 <h3 className="text-white text-xl font-bold mb-4">
                                     Les Moquettistes de Paris
                                 </h3>
@@ -45,7 +45,7 @@ export default function RootLayout({
                                     <p className="mb-1">75001 Paris, France</p>
                                 </div>
                             </div>
-                            <div>
+                            <div className="text-center md:text-left">
                                 <h4 className="text-white font-semibold mb-4">
                                     Services
                                 </h4>
@@ -80,7 +80,7 @@ export default function RootLayout({
                                     </li>
                                 </ul>
                             </div>
-                            <div>
+                            <div className="text-center md:text-left">
                                 <h4 className="text-white font-semibold mb-4">
                                     Navigation
                                 </h4>
@@ -115,7 +115,7 @@ export default function RootLayout({
                                     </li>
                                 </ul>
                             </div>
-                            <div>
+                            <div className="text-center md:text-left">
                                 <h4 className="text-white font-semibold mb-4">
                                     Horaires
                                 </h4>

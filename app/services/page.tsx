@@ -30,51 +30,36 @@ export default function Services() {
                             spectacle et espaces culturels.
                         </p>
                     </div>
-                    <div className="flex relative h-80 -mx-3">
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[3] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(0 0, 100% 0, 85% 100%, 0 100%)',
-                                }}>
+                    <div className="flex flex-col lg:flex-row relative lg:h-80 gap-4 lg:gap-0 lg:-mx-3">
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[3] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300">
                                 <Image
                                     src="/assets/theatre-moquette-1.jpg"
                                     alt="Réalisation moquette théâtre"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
                         </div>
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[2] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(15% 0, 100% 0, 85% 100%, 0 100%)',
-                                }}>
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[2] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300">
                                 <Image
                                     src="/assets/theatre-moquette-2.jpg"
                                     alt="Réalisation moquette théâtre"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
                         </div>
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[2] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(15% 0, 100% 0, 100% 100%, 0 100%)',
-                                }}>
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[2] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300 clip-path-3">
                                 <Image
                                     src="/assets/theatre-moquette-3.jpg"
                                     alt="Réalisation moquette théâtre"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
@@ -95,51 +80,36 @@ export default function Services() {
                             établissements recevant du public.
                         </p>
                     </div>
-                    <div className="flex relative h-80 -mx-3">
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[3] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(0 0, 100% 0, 85% 100%, 0 100%)',
-                                }}>
+                    <div className="flex flex-col lg:flex-row relative lg:h-80 gap-4 lg:gap-0 lg:-mx-3">
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[3] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300">
                                 <Image
                                     src="/assets/hotel-moquette-1.jpg"
                                     alt="Réalisation moquette hôtellerie"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
-                                    className="object-cover object-bottom   "
-                                />
-                            </div>
-                        </div>
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[2] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(15% 0, 100% 0, 85% 100%, 0 100%)',
-                                }}>
-                                <Image
-                                    src="/assets/hotel-moquette-2.jpg"
-                                    alt="Réalisation moquette hôtellerie"
-                                    fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
                         </div>
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[2] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(15% 0, 100% 0, 100% 100%, 0 100%)',
-                                }}>
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[2] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300">
+                                <Image
+                                    src="/assets/hotel-moquette-2.jpg"
+                                    alt="Réalisation moquette hôtellerie"
+                                    fill
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
+                                    className="object-cover object-bottom"
+                                />
+                            </div>
+                        </div>
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[2] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300 clip-path-3">
                                 <Image
                                     src="/assets/hotel-moquette-3.jpg"
                                     alt="Réalisation moquette hôtellerie"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
@@ -160,51 +130,36 @@ export default function Services() {
                             de fitness et espaces sportifs.
                         </p>
                     </div>
-                    <div className="flex relative h-80 -mx-3">
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[3] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(0 0, 100% 0, 85% 100%, 0 100%)',
-                                }}>
+                    <div className="flex flex-col lg:flex-row relative lg:h-80 gap-4 lg:gap-0 lg:-mx-3">
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[3] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300">
                                 <Image
                                     src="/assets/gym-moquette-1.jpg"
                                     alt="Réalisation moquette salle de sport"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
                         </div>
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[2] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(15% 0, 100% 0, 85% 100%, 0 100%)',
-                                }}>
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[2] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300">
                                 <Image
                                     src="/assets/gym-moquette-2.jpg"
                                     alt="Réalisation moquette salle de sport"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
                         </div>
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[2] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(15% 0, 100% 0, 100% 100%, 0 100%)',
-                                }}>
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[2] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300 clip-path-3">
                                 <Image
                                     src="/assets/gym-moquette-3.jpg"
                                     alt="Réalisation moquette salle de sport"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
@@ -229,51 +184,36 @@ export default function Services() {
                             collaborateurs et visiteurs.
                         </p>
                     </div>
-                    <div className="flex relative h-80 -mx-3">
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[3] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(0 0, 100% 0, 85% 100%, 0 100%)',
-                                }}>
+                    <div className="flex flex-col lg:flex-row relative lg:h-80 gap-4 lg:gap-0 lg:-mx-3">
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[3] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300">
                                 <Image
                                     src="/assets/start-up-moquette-1.jpg"
                                     alt="Réalisation moquette banque et entreprise"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
                         </div>
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[2] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(15% 0, 100% 0, 85% 100%, 0 100%)',
-                                }}>
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[2] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300">
                                 <Image
                                     src="/assets/start-up-moquette-2.jpg"
                                     alt="Réalisation moquette banque et entreprise"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
                         </div>
-                        <div className="relative flex-1 mx-3 overflow-visible group cursor-pointer transition-all duration-300 hover:flex-[2] group-hover:z-20">
-                            <div
-                                className="relative h-full transition-all duration-300"
-                                style={{
-                                    clipPath:
-                                        'polygon(15% 0, 100% 0, 100% 100%, 0 100%)',
-                                }}>
+                        <div className="relative w-full lg:flex-1 lg:mx-3 overflow-hidden lg:overflow-visible lg:group lg:cursor-pointer transition-all duration-300 lg:hover:flex-[2] lg:group-hover:z-20">
+                            <div className="relative h-64 lg:h-full transition-all duration-300 clip-path-3">
                                 <Image
                                     src="/assets/start-up-moquette-3.jpeg"
                                     alt="Réalisation moquette banque et entreprise"
                                     fill
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 1024px) 100vw, 33vw"
                                     className="object-cover object-bottom"
                                 />
                             </div>
