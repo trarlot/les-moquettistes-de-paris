@@ -4,15 +4,19 @@ export default function Contact() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="pt-40 pb-20 px-6 lg:px-8 bg-gray-50">
+            <section className="pt-[160px] bg-red-700 pb-20 px-6 lg:px-8 ">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center">
-                        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                        <h1 className="text-3xl text-white md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                             Contactez-Nous
                         </h1>
-                        <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+                        <p className="text-base md:text-lg lg:text-xl text-white max-w-3xl mx-auto mb-4">
                             Obtenez un devis gratuit et personnalisé pour votre
                             projet de pose de moquette
+                        </p>
+                        <p className="text-base md:text-lg lg:text-xl text-white max-w-3xl mx-auto font-semibold">
+                            Déplacement gratuit pour diagnostic, devis et
+                            conseil.
                         </p>
                     </div>
                 </div>
@@ -23,7 +27,7 @@ export default function Contact() {
                 <div className="max-w-7xl mx-auto">
                     <div className="grid lg:grid-cols-2 gap-12">
                         {/* Formulaire de Contact */}
-                        <ContactForm />
+                        <ContactForm showBorders={true} />
 
                         {/* Informations de Contact */}
                         <div>
@@ -153,6 +157,10 @@ export default function Contact() {
 
                             {/* Zone d'intervention */}
                             <div className="mt-12 p-6 bg-gray-50">
+                                <p className="text-base md:text-lg font-semibold text-gray-900 mb-4 text-center md:text-left">
+                                    Déplacement gratuit pour diagnostic, devis
+                                    et conseil.
+                                </p>
                                 <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 text-center md:text-left">
                                     Zone d&apos;Intervention
                                 </h3>
@@ -177,7 +185,7 @@ export default function Contact() {
             </section>
 
             {/* FAQ Section */}
-            <section className="py-20 px-6 lg:px-8 bg-gray-50">
+            <section className="py-20 bg-custom-beige px-6 lg:px-8 ">
                 <div className="max-w-4xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

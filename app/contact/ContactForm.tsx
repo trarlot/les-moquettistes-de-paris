@@ -2,7 +2,11 @@
 
 import { useState, FormEvent } from 'react';
 
-export default function ContactForm() {
+interface ContactFormProps {
+    showBorders?: boolean;
+}
+
+export default function ContactForm({ showBorders = false }: ContactFormProps) {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [typeProjet, setTypeProjet] = useState('');
     const [submitStatus, setSubmitStatus] = useState<{
@@ -93,7 +97,9 @@ export default function ContactForm() {
                             id="nom"
                             name="nom"
                             required
-                            className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
+                            className={`w-full rounded-md px-4 py-3 bg-white focus:ring-2 focus:ring-red-600 text-gray-900 placeholder:text-gray-400 ${
+                                showBorders ? 'border border-gray-300' : ''
+                            }`}
                             placeholder="Votre nom"
                         />
                     </div>
@@ -108,7 +114,9 @@ export default function ContactForm() {
                             id="prenom"
                             name="prenom"
                             required
-                            className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
+                            className={`w-full rounded-md px-4 py-3 bg-white focus:ring-2 focus:ring-red-600 text-gray-900 placeholder:text-gray-400 ${
+                                showBorders ? 'border border-gray-300' : ''
+                            }`}
                             placeholder="Votre prénom"
                         />
                     </div>
@@ -125,7 +133,9 @@ export default function ContactForm() {
                         id="email"
                         name="email"
                         required
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
+                        className={`w-full rounded-md px-4 py-3 bg-white focus:ring-2 focus:ring-red-600 text-gray-900 placeholder:text-gray-400 ${
+                            showBorders ? 'border border-gray-300' : ''
+                        }`}
                         placeholder="votre@email.com"
                     />
                 </div>
@@ -140,7 +150,9 @@ export default function ContactForm() {
                         type="tel"
                         id="telephone"
                         name="telephone"
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
+                        className={`w-full rounded-md px-4 py-3 bg-white focus:ring-2 focus:ring-red-600 text-gray-900 placeholder:text-gray-400 ${
+                            showBorders ? 'border border-gray-300' : ''
+                        }`}
                         placeholder="01 23 45 67 89"
                     />
                 </div>
@@ -155,7 +167,9 @@ export default function ContactForm() {
                         type="text"
                         id="entreprise"
                         name="entreprise"
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
+                        className={`w-full rounded-md px-4 py-3 bg-white focus:ring-2 focus:ring-red-600 text-gray-900 placeholder:text-gray-400 ${
+                            showBorders ? 'border border-gray-300' : ''
+                        }`}
                         placeholder="Nom de votre entreprise"
                     />
                 </div>
@@ -172,11 +186,11 @@ export default function ContactForm() {
                         required
                         value={typeProjet}
                         onChange={(e) => setTypeProjet(e.target.value)}
-                        className={`w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 bg-white ${
+                        className={`w-full rounded-md px-4 py-3 focus:ring-2 focus:ring-red-600 bg-white ${
                             typeProjet === ''
                                 ? 'text-gray-400'
                                 : 'text-gray-900'
-                        }`}>
+                        } ${showBorders ? 'border border-gray-300' : ''}`}>
                         <option value="" className="text-gray-400">
                             Sélectionnez un type
                         </option>
@@ -206,7 +220,9 @@ export default function ContactForm() {
                         type="number"
                         id="surface"
                         name="surface"
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
+                        className={`w-full rounded-md px-4 py-3 bg-white focus:ring-2 focus:ring-red-600 text-gray-900 placeholder:text-gray-400 ${
+                            showBorders ? 'border border-gray-300' : ''
+                        }`}
                         placeholder="Ex: 150"
                     />
                 </div>
@@ -221,7 +237,9 @@ export default function ContactForm() {
                         id="message"
                         name="message"
                         rows={4}
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-red-600 text-gray-900 placeholder:text-gray-400"
+                        className={`w-full rounded-md px-4 py-3 bg-white focus:ring-2 focus:ring-red-600 text-gray-900 placeholder:text-gray-400 ${
+                            showBorders ? 'border border-gray-300' : ''
+                        }`}
                         placeholder="Décrivez votre projet..."></textarea>
                 </div>
 
