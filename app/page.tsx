@@ -190,14 +190,14 @@ export default function Home() {
             </section>
 
             {/* Rubrique Lame - LVT Elite Section */}
-            <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-custom-beige">
+            <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-red-700">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-start mb-6 sm:mb-8">
                         <div>
-                            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 text-center md:text-left">
+                            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-4 sm:mb-6 text-center md:text-left">
                                 L&apos;excellence au sol, signée Elite
                             </h2>
-                            <div className="text-sm sm:text-base text-gray-600 space-y-4 text-center md:text-left">
+                            <div className="text-sm sm:text-base text-white space-y-4 text-center md:text-left">
                                 <p>
                                     Le produit{' '}
                                     <strong>LVT DRYBACK ACOUSTIC 55</strong>,
@@ -244,7 +244,7 @@ export default function Home() {
                             />
                         </div>
                     </div>
-                    <div className="text-sm sm:text-base text-gray-600 space-y-4 text-center md:text-left">
+                    <div className="text-sm sm:text-base text-white space-y-4 text-center md:text-left">
                         <p>
                             Cette collection comprend 8 références maintenue en
                             stock et 12 disponibles à la commande.
