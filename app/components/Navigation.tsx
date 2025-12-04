@@ -60,7 +60,7 @@ export default function Navigation() {
                                 className="text-2xl flex items-center h-[80px] font-bold text-gray-900"
                                 onClick={closeMenu}>
                                 <Image
-                                    src="/assets/logo-5.png"
+                                    src="/assets/logo-moquettistes-paris.png"
                                     alt="Les Moquettistes de Paris"
                                     width={80}
                                     height={80}

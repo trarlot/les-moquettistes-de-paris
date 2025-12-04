@@ -34,7 +34,7 @@ export default function RootLayout({
                 <Navigation />
                 {children}
                 {/* Footer */}
-                <footer className="bg-red-700 text-gray-200 py-12 px-6 lg:px-8">
+                <footer className="bg-gray-800 text-white py-12 px-6 lg:px-8">
                     <div className="max-w-7xl mx-auto">
                         <div className="grid md:grid-cols-4 gap-8">
                             <div className="text-center md:text-left">
@@ -140,7 +140,7 @@ export default function RootLayout({
                                 <h4 className="text-white font-semibold mb-4">
                                     Horaires
                                 </h4>
-                                <p className="text-sm mb-2">Lundi - Vendredi</p>
+                                <p className="text-sm mb-2">Lundi - Samedi</p>
                                 <p className="text-sm mb-4">8h00 - 18h00</p>
                             </div>
                         </div>
@@ -152,6 +152,12 @@ export default function RootLayout({
                         </div>
                     </div>
                 </footer>
+                {/* Pastille Devis Gratuit */}
+                <Link
+                    href="/contact"
+                    className="fixed bottom-6 right-6 z-50 bg-red-700 hover:bg-red-800 text-white px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 text-base sm:text-lg font-semibold">
+                    <span>Devis Gratuit</span>
+                </Link>
             </body>
         </html>
     );

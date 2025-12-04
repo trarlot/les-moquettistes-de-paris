@@ -4,17 +4,17 @@ export default function Contact() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="pt-[160px] bg-red-700 pb-20 px-6 lg:px-8 ">
+            <section className="pt-[160px] bg-custom-beige pb-20 px-6 lg:px-8 ">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center">
-                        <h1 className="text-3xl text-white md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                        <h1 className="text-3xl text-gray-900 md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                             Contactez-Nous
                         </h1>
-                        <p className="text-base md:text-lg lg:text-xl text-white max-w-3xl mx-auto mb-4">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto mb-4">
                             Obtenez un devis gratuit et personnalisé pour votre
                             projet de pose de moquette
                         </p>
-                        <p className="text-base md:text-lg lg:text-xl text-white max-w-3xl mx-auto font-semibold">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto font-semibold">
                             Déplacement gratuit pour diagnostic, devis et
                             conseil.
                         </p>
@@ -57,9 +57,6 @@ export default function Contact() {
                                         </h3>
                                         <p className="text-gray-600">
                                             01 23 45 67 89
-                                        </p>
-                                        <p className="text-sm text-gray-500">
-                                            Lun-Ven: 8h00-18h00
                                         </p>
                                     </div>
                                 </div>
@@ -146,10 +143,7 @@ export default function Contact() {
                                             Horaires
                                         </h3>
                                         <p className="text-gray-600">
-                                            Lundi - Vendredi: 8h00 - 18h00
-                                        </p>
-                                        <p className="text-gray-600">
-                                            Samedi: 9h00 - 12h00
+                                            Lundi - Samedi: 8h00 - 18h00
                                         </p>
                                     </div>
                                 </div>

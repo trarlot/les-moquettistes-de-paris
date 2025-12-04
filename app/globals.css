@@ -10,7 +10,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-custom-beige: rgb(247, 238, 221);
+  --color-custom-beige: #fdf4e2;
   --custom-red: #b91c1c;
   --font-sans: var(--font-roboto);
   --font-playfair: var(--font-playfair);
