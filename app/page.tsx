@@ -14,7 +14,7 @@ export default function Home() {
                     <div className="flex flex-col lg:flex-row-reverse gap-6 sm:gap-8 items-center">
                         <div className="relative  overflow-hidden w-full max-w-sm lg:max-w-md aspect-square shrink-0">
                             <Image
-                                src="/assets/logo-moquettistes-paris.png"
+                                src="/assets/moquettistes-paris.png"
                                 alt="Réalisation de pose de moquette professionnelle"
                                 className="object-cover w-full h-full"
                                 width={600}
