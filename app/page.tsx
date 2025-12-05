@@ -114,7 +114,7 @@ export default function Home() {
                         {/* Théâtres - Gauche mobile, grille desktop */}
                         <div
                             data-aos="fade-up"
-                            className="flex flex-row md:flex-col items-center gap-4 sm:gap-6 max-w-[400px] sm:max-w-[500px] md:max-w-none mx-auto md:mx-0">
+                            className="flex flex-row md:flex-col items-center gap-4 sm:gap-6 max-w-[400px] sm:max-w-[600px] md:max-w-none mx-auto md:mx-0">
                             <Link
                                 href="/services/theatres-operas"
                                 className="group shrink-0 hover:opacity-90 transition-opacity md:mb-4">
@@ -148,7 +148,7 @@ export default function Home() {
                         {/* Restaurants - Droite mobile, grille desktop */}
                         <div
                             data-aos="fade-up"
-                            className="flex flex-row-reverse md:flex-col items-center gap-4 sm:gap-6 max-w-[600px]  md:max-w-none mx-auto md:mx-0">
+                            className="flex flex-row-reverse md:flex-col items-center gap-4 sm:gap-6 max-w-[400px] sm:max-w-[600px] md:max-w-none mx-auto md:mx-0">
                             <Link
                                 href="/services/restauration"
                                 className="group shrink-0 hover:opacity-90 transition-opacity md:mb-4">
@@ -182,7 +182,7 @@ export default function Home() {
                         {/* Hôtellerie - Gauche mobile, grille desktop */}
                         <div
                             data-aos="fade-up"
-                            className="flex flex-row md:flex-col items-center gap-4 sm:gap-6 max-w-[600px]  md:max-w-none mx-auto md:mx-0">
+                            className="flex flex-row md:flex-col items-center gap-4 sm:gap-6 max-w-[400px] sm:max-w-[600px] md:max-w-none mx-auto md:mx-0">
                             <Link
                                 href="/services/hotels-restaurants"
                                 className="group shrink-0 hover:opacity-90 transition-opacity md:mb-4">
@@ -216,7 +216,7 @@ export default function Home() {
                         {/* Espaces événementiels - Droite mobile, grille desktop */}
                         <div
                             data-aos="fade-up"
-                            className="flex flex-row-reverse md:flex-col items-center gap-4 sm:gap-6 max-w-[600px]  md:max-w-none mx-auto md:mx-0">
+                            className="flex flex-row-reverse md:flex-col items-center gap-4 sm:gap-6 max-w-[400px] sm:max-w-[600px] md:max-w-none mx-auto md:mx-0">
                             <Link
                                 href="/services/espaces-evenementiels"
                                 className="group shrink-0 hover:opacity-90 transition-opacity md:mb-4">
@@ -250,7 +250,7 @@ export default function Home() {
                         {/* Banques & Entreprises - Gauche mobile, grille desktop */}
                         <div
                             data-aos="fade-up"
-                            className="flex flex-row md:flex-col items-center gap-4 sm:gap-6 max-w-[600px]  md:max-w-none mx-auto md:mx-0">
+                            className="flex flex-row md:flex-col items-center gap-4 sm:gap-6 max-w-[400px] sm:max-w-[600px] md:max-w-none mx-auto md:mx-0">
                             <Link
                                 href="/services/banques-entreprises"
                                 className="group shrink-0 hover:opacity-90 transition-opacity md:mb-4">
@@ -285,7 +285,7 @@ export default function Home() {
                         {/* Cinéma - Droite mobile, grille desktop */}
                         <div
                             data-aos="fade-up"
-                            className="flex flex-row-reverse md:flex-col items-center gap-4 sm:gap-6 max-w-[600px]  md:max-w-none mx-auto md:mx-0">
+                            className="flex flex-row-reverse md:flex-col items-center gap-4 sm:gap-6 max-w-[400px] sm:max-w-[600px] md:max-w-none mx-auto md:mx-0">
                             <Link
                                 href="/services/cinema"
                                 className="group shrink-0 hover:opacity-90 transition-opacity md:mb-4">
@@ -347,6 +347,7 @@ export default function Home() {
                     vos clients, visiteurs ou spectateurs.
                 </p>
                 <p
+                    data-fade-up
                     data-aos="fade-up"
                     className="text-sm sm:text-base md:text-base lg:text-base max-w-4xl mx-auto text-gray-700 font-semibold px-4">
                     Déplacement gratuit pour diagnostic, devis et conseil.
