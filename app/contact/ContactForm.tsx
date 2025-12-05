@@ -70,8 +70,8 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
     };
 
     return (
-        <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center md:text-left">
+        <div className="bg-gray-800 p-6 sm:p-8 rounded-lg">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center md:text-left">
                 Demandez Votre Devis
             </h2>
             {submitStatus.type && (
@@ -89,7 +89,7 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
                     <div>
                         <label
                             htmlFor="nom"
-                            className="block text-sm font-medium text-gray-700 mb-2">
+                            className="block text-sm font-medium text-white mb-2">
                             Nom *
                         </label>
                         <input
@@ -106,7 +106,7 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
                     <div>
                         <label
                             htmlFor="prenom"
-                            className="block text-sm font-medium text-gray-700 mb-2">
+                            className="block text-sm font-medium text-white mb-2">
                             Prénom *
                         </label>
                         <input
@@ -125,7 +125,7 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
                 <div>
                     <label
                         htmlFor="email"
-                        className="block text-sm font-medium text-gray-700 mb-2">
+                        className="block text-sm font-medium text-white mb-2">
                         Email *
                     </label>
                     <input
@@ -143,7 +143,7 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
                 <div>
                     <label
                         htmlFor="telephone"
-                        className="block text-sm font-medium text-gray-700 mb-2">
+                        className="block text-sm font-medium text-white mb-2">
                         Téléphone
                     </label>
                     <input
@@ -160,7 +160,7 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
                 <div>
                     <label
                         htmlFor="entreprise"
-                        className="block text-sm font-medium text-gray-700 mb-2">
+                        className="block text-sm font-medium text-white mb-2">
                         Entreprise
                     </label>
                     <input
@@ -177,7 +177,7 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
                 <div>
                     <label
                         htmlFor="type-projet"
-                        className="block text-sm font-medium text-gray-700 mb-2">
+                        className="block text-sm font-medium text-white mb-2">
                         Type de Projet *
                     </label>
                     <select
@@ -213,7 +213,7 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
                 <div>
                     <label
                         htmlFor="surface"
-                        className="block text-sm font-medium text-gray-700 mb-2">
+                        className="block text-sm font-medium text-white mb-2">
                         Surface (m²)
                     </label>
                     <input
@@ -230,7 +230,7 @@ export default function ContactForm({ showBorders = false }: ContactFormProps) {
                 <div>
                     <label
                         htmlFor="message"
-                        className="block text-sm font-medium text-gray-700 mb-2">
+                        className="block text-sm font-medium text-white mb-2">
                         Message
                     </label>
                     <textarea

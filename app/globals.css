@@ -45,3 +45,21 @@ select {
   background-size: 1.5em 1.5em;
   padding-right: 2.5rem;
 }
+
+/* Animation fade-up pour le bouton Devis Gratuit */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up-animation {
+  animation: fadeUp 0.8s ease-out forwards;
+  animation-delay: 800ms;
+  opacity: 0;
+}
