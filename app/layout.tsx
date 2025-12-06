@@ -5,6 +5,7 @@ import './globals.css';
 import Navigation from './components/Navigation';
 import AOSProvider from './components/AOSProvider';
 import FadeUpObserver from './components/FadeUpObserver';
+import ScrollToTop from './components/ScrollToTop';
 
 const roboto = Roboto({
     weight: ['300', '400', '500', '700'],
@@ -34,6 +35,7 @@ export default function RootLayout({
             <body
                 className={`${roboto.variable} ${playfairDisplay.variable} font-sans antialiased`}>
                 <AOSProvider>
+                    <ScrollToTop />
                     <FadeUpObserver />
                     <Navigation />
                     {children}
